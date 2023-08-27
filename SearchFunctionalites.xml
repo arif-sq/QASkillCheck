@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/khaleda/Documents/QASkillCheck">
+        <classes>
+            <class name="TestSuites.Scenario_01_searching_with_category">
+                <methods>
+                    <include name="TC_01_search_with_category"/>
+                </methods>
+            </class>
+            <class name="TestSuites.Scenario_02_searching_with_browsing_history">
+                <methods>
+                    <include name="TC_02_search_with_category_history"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
